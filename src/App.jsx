@@ -38,7 +38,7 @@ export default function DocumentSummarizer() {
         ];
 
         if (!validTypes.includes(selectedFile.type)) {
-            setError('Please upload a valid file (PDF, DOC, DOCX, TXT)');
+            setError('Please upload a valid file (PDF, DOC, DOCX, TXT, JPG, PNG)');
             return;
         }
 
@@ -244,7 +244,7 @@ export default function DocumentSummarizer() {
                                     Upload Your Document
                                 </h2>
                                 <p className="text-gray-600">
-                                    Supports PDF, DOC, DOCX, and TXT files
+                                    Supports PDF, DOC, DOCX, TXT, JPG, and PNG files
                                 </p>
                             </div>
 
