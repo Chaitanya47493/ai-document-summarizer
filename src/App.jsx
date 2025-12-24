@@ -32,13 +32,13 @@ export default function DocumentSummarizer() {
             'application/msword',
             'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
             'text/plain',
-            'image/jpeg',
+            'image/jpeg
             'image/png',
             'image/jpg'
         ];
 
         if (!validTypes.includes(selectedFile.type)) {
-            setError('Please upload a valid file (PDF, DOC, DOCX, TXT, JPG, PNG)');
+            setError('Please upload a valid file (PDF, DOC, DOCX, TXT)');
             return;
         }
 
@@ -244,7 +244,7 @@ export default function DocumentSummarizer() {
                                     Upload Your Document
                                 </h2>
                                 <p className="text-gray-600">
-                                    Supports PDF, DOC, DOCX, TXT, JPG, and PNG files
+                                    Supports PDF, DOC, DOCX, TXT files
                                 </p>
                             </div>
 
