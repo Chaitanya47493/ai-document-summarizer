@@ -32,7 +32,7 @@ export default function DocumentSummarizer() {
             'application/msword',
             'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
             'text/plain',
-            'image/jpeg
+            'image/jpeg',
             'image/png',
             'image/jpg'
         ];
@@ -244,7 +244,7 @@ export default function DocumentSummarizer() {
                                     Upload Your Document
                                 </h2>
                                 <p className="text-gray-600">
-                                    Supports PDF, DOC, DOCX, TXT files
+                                    Supports PDF, DOC, DOCX, and TXT files
                                 </p>
                             </div>
 
